@@ -34,40 +34,40 @@
 
     <div id="display"></div>
 
-    <div id="buttons">
+    <div class="buttons">
 
       <p>
-         <button type="button" name="button">AC</button>
-         <button type="button" name="button">CE</button>
-         <button type="button" name="button">%</button>
-         <button type="button" name="button">/</button>
+         <button type="button" value="button" onclick="ac();">AC</button>
+         <button type="button" value="button" onclick="ac();">CE</button>
+         <button type="button" value="%" onclick="v('%');">%</button>
+         <button type="button" value="/" onclick="v('/');">/</button>
       </p>
 
       <p>
-        <button type="button" name="button">1</button>
-        <button type="button" name="button">2</button>
-        <button type="button" name="button">3</button>
-        <button type="button" name="button">+</button>
+        <button type="button" value="1" onclick="v(1);">1</button>
+        <button type="button" value="2" onclick="v(2);">2</button>
+        <button type="button" value="3" onclick="v(3);">3</button>
+        <button type="button" value="+" onclick="v('+');">+</button>
       </p>
 
       <p>
-        <button type="button" name="button">4</button>
-        <button type="button" name="button">5</button>
-        <button type="button" name="button">6</button>
-        <button type="button" name="button">-</button>
+        <button type="button" value="4" onclick="v(4);">4</button>
+        <button type="button" value="5" onclick="v(5);">5</button>
+        <button type="button" value="6" onclick="v(6);">6</button>
+        <button type="button" value="-" onclick="v('-');">-</button>
       </p>
 
       <p>
-        <button type="button" name="button">7</button>
-        <button type="button" name="button">8</button>
-        <button type="button" name="button">9</button>
-        <button type="button" name="button">=</button>
+        <button type="button" value="7" onclick="v(7);">7</button>
+        <button type="button" value="8" onclick="v(8);">8</button>
+        <button type="button" value="9" onclick="v(9);">9</button>
+        <button type="button" value="=" onclick="ev();">=</button>
       </p>
 
       <p>
-        <button type="button" name="button">0</button>
-        <button type="button" name="button">.</button>
-        <button type="button" name="button">*</button>
+        <button type="button" value="button" onclick="v(0);">0</button>
+        <button type="button" value="button" onclick="v('.');">.</button>
+        <button type="button" value="button" onclick="v('*');">*</button>
       </p>
 
     </div>
@@ -76,6 +76,7 @@
   </div>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script type="text/javascript" src="test.js"></script>
 </body>
 
 </html>
